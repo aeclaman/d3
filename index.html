@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Health Risks vs. Particular Demographics</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-11">
+        <div class="article">
+          <br>
+          <h2>Correlations Discovered Between Health Risks & Age, Income, Poverty</h2>
+          <p>When looking at Median Household Income and smoking, there is a trend that lower income households appear
+            to have a highter percentage of smokers, although some outliers do exist. Further, comparing Median Household
+            Income with obesity, a similar trend can be seen. Lower income households appear to have highter percentages
+            of obesity. However, the trend does flatten out a bit when comparing Median Household Income with low healthcare
+            coverage. Less correlation can be seen here with some definite outliers.
+          </p>
+
+          <p>When looking at Median Household Age and smoking, there doesn't appear to be any trend. The data suggests most
+            household's average ages are mid-thirties to early-forties. The households with a higher percentage of smokers seem
+            to occur in more southern states. With a similar, non-trending distribution, southern states also seem to have
+            higher percentages of homes with obesity health issues. Finally, when we look at Median household age and low healthcare
+            coverage, there is a slight trend with older aged households having lower healthcare coverage.
+          </p>
+
+          <p>When looking at Percentage of households at the poverty level and smoking, we find that there is a slight upward trend
+            in percentage of smokers as poverty levels go up. A little less of an upward trend, with more outliers, can be seen when
+            looking at the more poverty stricken households and obesity levels. Finally, the household poverty levels and lack of 
+            healthcare coverage does seem more flat as would be expected.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
